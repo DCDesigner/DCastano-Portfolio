@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+/* Show it is fixed to the top */
+body {
+margin: 0; 
+}
+
+/* Navbar  not edited yet */
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
