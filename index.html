@@ -8,78 +8,383 @@
 	<title>Deanna Castano's Website</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
 	<header>
 		<!-- logo & Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			<a class="navbar-brand"
-				href="#"><img src="assets/images/deannacastano_logo.png" alt="Deanna Castano logo"></a>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#skills">Skills</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#portfolio">Portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-		</nav>
+		<section id="home">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white">
+				<a class="navbar-brand" href="#"><img src="assets/images/deannacastano_logo.png" class="img-fluid" alt="Deanna Castano logo">
+</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#skills">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+						<ul id="navicons" class="navbar-nav ml-auto nav-flex-icons">
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank"
+									class="nav-link waves-effect waves-light">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank"
+									class="nav-link waves-effect waves-light">
+									<i class="fab fa-github-alt"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank"
+									class="nav-link waves-effect waves-light">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank"
+									class="nav-link waves-effect waves-light">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank"
+									class="nav-link waves-effect waves-light">
+									<i class="fab fa-dribbble"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</section>
 	</header>
-	<section>
-		<div class="container">
-			<img src="assets/images/main_image.png" class="img-fluid" alt="Deanna's Career">
-			<div class="top-right"> <h1>Full Stack Software Developer</h1>
-				                    <h2>Deanna Castano</h2>
+	<div class="container-fluid">
+		<div class="top-left">
+			<!--typewritter-->
+			<div class="typewrite">Hello, Deanna Castano!</div>
+		</div> 
+		<img src="assets/images/main_images1.png" class="img-fluid" alt="Deanna's Career">
+
+		<ul class="list-group list-group-horizontal-xl text-center">
+			<li class="list-group-item flex-fill">Graphic Design</li>
+			<li class="list-group-item flex-fill">UI/UX Design</li>
+			<li class="list-group-item flex-fill">Photography</li>
+			<li class="list-group-item flex-fill">Web Design</li>
+			<li class="list-group-item flex-fill">Web Development</li>
+		</ul>
+		<div class="downscroll">
+			<div class="icon-scroll"></div>
+		</div>
+	</div>
+	<div class="containter-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="miniabout text-center font-italic">
+					<p class="miniquote">I am a
+						professional...<br>I create graphics and websites, that<br> are meticulously and thoughtfully designed.</p>
+						<a href="pdf/Deanna'sCurriculumVitae.pdf"
+							target="_blank"><button type="button" class="btn btn-info">Download Curriculum Vitae</button></a>
+				</div>
 			</div>
-			social icons 
-			 <div class="container-fluid">
-				                <ul class="list-group list-group-horizontal text-center">
-					  <li class="list-group-item flex-fill">Graphic Design</li>
-					  <li class="list-group-item flex-fill">Photography</li>
-					  <li class="list-group-item flex-fill">UI/UX Design</li>
-					   <li class="list-group-item flex-fill">Web Design</li>
-					    <li class="list-group-item flex-fill">Web Development</li>
-				</ul>
-				                </div>
-	</section>
-	<section id=about class=about-area>
-		    <div class="container miniabout-container">
-			  <div class="miniabout text-center">
-				    <p>I am a professional …. I create graphic and websites that are meticulously 
-					    researched and thoughfully designed.</p>
-				    <a href="#" class="btn btn-info" role="button">Download Curriculum Vitae</a>
-				    </div>
-			 </div>
-		 </div>
-		 </div>
-		    </section>
+		</div>
 
-	<footer>text here </footer>
-	<!-- Bootstrap CDN Code  -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<section id="about">
+			<div class="container-fluid">
+				<div class="aboutheading text-center">
+					<h1>About</h1>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div id="me"><img src="assets/images/Deanna_Castano.png" alt="Deanna Castano">
+							<div class="social_media">
+								<ul id="icons">
+									<li><a href="https://www.linkedin.com/in/dcdesigns/" target="_blank">
+											<i class="fab fa-linkedin-in"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank">
+											<i class="fab fa-github-alt"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank">
+											<i class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank">
+											<i class="fab fa-instagram"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/dcdesigns/" target="_blank">
+											<i class="fab fa-dribbble"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-7 col-lg-4">
+						<div class="abouttext">
+							<p>I am well rounded designer and coder. I specialize UI/UX & graphic/web
+								design. I am currrently expanding my education to be a Full Stack Software Developer at
+								Salem State University. I will elaborate my front-end and back-end frameworks skills. I
+								am passionate about photography as well and to that on my spare time.</p>
 
-	<!-- Bootstrap CDN Code for JavaScript  -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+							<p>I am Based in Boston, raised & schooled in New York. I am Known for my
+								intricate detailed designs & have a magnificent sense of design. Iam enthusiastic
+								dedicated to learn about technology to help the world be better place. I feel fulfilled
+								when I can
+								improve lives, sustainability, climate change, education, empower women and many other
+								worldwide topics that have progressed over the last decade, with the use of technology.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="skillsheading text-center">
+							<h1>Skills</h1>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<div class="jumbotron text-center" style="margin-bottom:0; background-color: #FBFCFF;">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1>Portfolio</h1>
+							<hr class="my-4">
+							<div align="center">
+								<button class="btn btn-primary active filter-button" data-filter="todo">Todo</button>
+								<button class="btn btn-primary filter-button" data-filter="retratos">Retratos</button>
+								<button class="btn btn-primary filter-button" data-filter="paisajes">Paisajes</button>
+								<button class="btn btn-primary filter-button" data-filter="disenos">Diseños</button>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+alt="Retratos">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/34629/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/34629/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Retratos">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/698885/pexels-photo-698885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/698885/pexels-photo-698885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Retratos">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter paisajes">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/1563286/pexels-photo-1563286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/1563286/pexels-photo-1563286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Paisaje">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/1832064/pexels-photo-1832064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/1832064/pexels-photo-1832064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Paisaje">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/909620/pexels-photo-909620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/909620/pexels-photo-909620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Paisaje">
+</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+										data-image="https://images.pexels.com/photos/940880/pexels-photo-940880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+										data-target="#image-gallery">
+										<img class="img-thumbnail"
+src="https://images.pexels.com/photos/940880/pexels-photo-940880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+alt="Paisaje">
+</a>
+								</div>
+							</div>
+
+							<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog"
+								aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title" id="image-gallery-title"></h4>
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+</button>
+										</div>
+										<div class="modal-body">
+											<img id="image-gallery-image" class="img-responsive col-md-12" src="">
+</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+</button>
+
+												<button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<footer>
+			<section id="contact">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<div class="contactheading text-center">
+								<h1>Contact</h1>
+							</div>
+							<div class="container-fluid">
+
+								<!--Section: Content https://mdbootstrap.com/snippets/jquery/marta-szymanska/1317891-->
+								<section class="p-5 my-md-5 text-center"
+									style="background-image: url(https://mdbootstrap.com/img/Photos/Others/background2.jpg); background-size: cover; background-position: center center;">
+
+									<!-- Section heading -->
+									<h3 class="text-center font-weight-bold text-white mt-5 mb-3">Contact Us</h3>
+									<!-- Section description -->
+									<h4 class="text-center font-weight-normal text-white mx-auto mb-4 pb-2">I would love
+										to
+										hear from you!</h4>
+
+									<form class="mb-5 mx-md-5" action="">
+
+										<div class="row">
+											<div class="col-md-4 mb-4">
+
+												<!-- Name -->
+												<input type="text" id="name" class="form-control" placeholder="Name">
+
+</div>
+												<div class="col-md-4 mb-4">
+
+													<!-- Email -->
+													<input type="email" id="email" class="form-control" placeholder="Email">
+
+</div>
+													<div class="col-md-4 mb-4">
+
+														<!-- Phone -->
+														<input type="number" id="phone" class="form-control" placeholder="Phone (optional)">
+
+</div>
+													</div>
+
+													<div class="row">
+														<div class="col-md-12 mb-4">
+
+															<!-- Subject -->
+															<input type="text" id="subject" class="form-control" placeholder="Subject">
+
+</div>
+														</div>
+
+														<div class="row">
+															<div class="col-md-12">
+
+																<div class="form-group mb-4">
+																	<textarea class="form-control rounded" id="message" rows="3" placeholder="Leave your comments here"></textarea>
+																</div>
+
+																<div class="text-center">
+																	<button type="submit" class="btn btn-elegant">Submit</button>
+																</div>
+
+															</div>
+														</div>
+
+									</form>
+
+								</section>
+								<!--Section: Content-->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+		<!-- Bootstrap CDN Code  -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<!-- Bootstrap CDN Code for JavaScript  -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
+		<!-- typewriter -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="assets/js/typewriter.js"></script>
+		<!-- portfolio -->
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+			id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
 

@@ -1,22 +1,207 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
 
 /* Show it is fixed to the top */
-body {
-margin: 0; 
+body .container-fluid {
+    padding: 0;
 }
 
-/* Navbar  not edited yet */
+h1{
+   font-family: 'Montserrat', ; 
+}
+/* logo */
 .navbar-brand{
-    width: 70px;
-    height: 40px;
-    margin-top: 20px;
-
+width: 100px;
 }
 
-/* Top right text */
-.top-right {
+/* navbar */
+.navbar-nav{
+margin-right: 40px;
+}
+
+.navbar .nav-link{
+    color: #ffc107 !important;
+    font-weight: bold !important;
+}
+
+.navbar .nav-link:hover{
+    color: #A678EC !important;
+}
+
+.navbar .nav-link:active{
+    color: rgb(120, 236, 126) !important;
+}
+
+ul#navicons li{
+    font-weight: none !important;
+    color: #A678EC !important;
+}
+
+/* social icons*/
+.fab {
+    color: #ffc107;
+}
+
+/* Top left text */
+.top-left {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 120px;
+  left: 70px;
 }
 
+
+/* css scroll */
+.downscroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-scroll,
+.icon-scroll::before {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+.icon-scroll {
+    width: 40px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    bottom: 2rem;
+}
+
+.icon-scroll::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-left: -4px;
+    top: 15px;
+    border-radius: 50%;
+    animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.5);
+    }
+    10% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.5);
+    }
+}
+
+/* animated text */
+.typewrite {
+  font-size: 35px;
+  color: black;
+  text-transform: uppercase;
+  background-color: none;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+ul.list-group{
+    margin-bottom: 20px;
+}
+li.list-group-item{
+background-color:#e6e6ff;
+}
+
+.miniabout{
+    margin-top: 10px;
+}
+
+p.miniquote{
+
+}
+.aboutheading{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;  
+    padding-bottom: 30px;
+}
+.skillsheading{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;  
+    padding-bottom: 10px;
+}
+
+#me{
+    width: 317px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-right: auto;
+    margin-left:  auto;
+    margin-bottom: 40px;
+}
+ul#icons li {
+   display:inline-block;
+   padding-right: 20px;
+   margin-bottom: 10px;
+}
+.abouttext{
+
+}
+
+/* portfolio */
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 414px){
+    
+    .abouttext {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+    .typewrite {
+     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+p{
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+.typewrite {
+  font-size: 16px;
+  margin-top: 400px;
+  }
+
+li a {
+  text-align: right;
+}
+}
