@@ -15,12 +15,12 @@ width: 100px;
 
 /* navbar */
 .navbar-nav{
-margin-right: 40px;
+margin-right: 8px;
 }
 
 .navbar .nav-link{
     color: #ffc107 !important;
-    font-weight: bold !important;
+    align-content: right !important;
 }
 
 .navbar .nav-link:hover{
@@ -31,14 +31,26 @@ margin-right: 40px;
     color: rgb(120, 236, 126) !important;
 }
 
-ul#navicons li{
-    font-weight: none !important;
-    color: #A678EC !important;
+/* social icons*/
+
+#navicons{
+    position: relative;
+    margin-top: 20px;
 }
 
-/* social icons*/
 .fab {
-    color: #ffc107;
+     color: #A678EC;
+
+}
+.fab:hover{
+     color: rgb(3, 74, 180);
+
+}
+
+.social-nav-item {
+    display: inline-block;
+    width: 40px;
+    margin-left: auto;
 }
 
 /* Top left text */
@@ -47,7 +59,6 @@ ul#navicons li{
   top: 120px;
   left: 70px;
 }
-
 
 /* css scroll */
 .downscroll {
@@ -117,6 +128,9 @@ span {
     border-color: transparent;
   }
 }
+
+/* careerlist*/
+
 ul.list-group{
     margin-bottom: 20px;
 }
@@ -124,24 +138,36 @@ li.list-group-item{
 background-color:#e6e6ff;
 }
 
+/* miniabout me */
 .miniabout{
     margin-top: 10px;
 }
 
-p.miniquote{
+p {
+	font-size: 1em;
+	text-align: center;
 
 }
+
+/* Button */
+button {
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	color: #fff;
+}
+
+
+.fas{
+    padding-left: 5px;
+}
+
+/* about */
+
 .aboutheading{
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;  
     padding-bottom: 30px;
-}
-.skillsheading{
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;  
-    padding-bottom: 10px;
 }
 
 #me{
@@ -157,8 +183,55 @@ ul#icons li {
    padding-right: 20px;
    margin-bottom: 10px;
 }
-.abouttext{
 
+.iconlist{
+    margin-bottom: 20px;
+    margin-top: 43px;
+}
+
+.listbox{
+    margin-top: 20px;
+}
+
+ol{
+    float: left;
+}
+
+.list-group{
+    padding-left: 41px;
+    margin-bottom: 5px;
+    padding-right: 41px;
+    margin-left: 50px;
+}
+
+/* Skill icons and heading*/
+
+.skillsheading{
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-top: 50px;
+}
+.container {
+	text-align: center;
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.fa-sitemap{
+color: #01d0d9;
+}
+
+.fa-code{
+color: #6d6bfd;  
+}
+.fa-pencil-ruler {
+color:#5a2e6b;
+}
+
+.fa-camera {
+color:#fb86db;
 }
 
 /* portfolio */
@@ -174,6 +247,111 @@ ul#icons li {
 .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+/* contact */
+#background{
+     background: #654ea3;
+    background: -webkit-linear-gradient(to left, #654ea3, #eaafc8);
+    background: linear-gradient(to left, #654ea3, #eaafc8);
+}
+
+/* Buttontotop */
+#back-to-top.show {
+opacity: 1;
+visibility: visible;
+}
+#back-to-top {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+position: fixed;
+bottom: 30px;
+right: 30px;
+opacity: 0;
+visibility: hidden;
+z-index: 1000;
+padding: 10px 20px;
+border-radius: 5px;
+color: #fff;
+-webkit-transition: background-color .3s, opacity .3s, visibility .5s;
+-o-transition: background-color .3s, opacity .3s, visibility .5s;
+transition: background-color .3s, opacity .3s, visibility .5s;
+}
+.btn.peach-gradient {
+color: #fff;
+-webkit-transition: .5s ease;
+transition: .5s ease;
+}
+
+.peach-gradient {
+background: linear-gradient(40deg,#B993D6 0%,#8CA6DB 51%)!important;
+}
+.mr-auto, .mx-auto {
+margin-right: auto!important;
+}
+.btn {
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.waves-effect {
+position: relative;
+overflow: hidden;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+}
+.btn {
+margin: .375rem;
+color: inherit;
+text-transform: uppercase;
+word-wrap: break-word;
+white-space: normal;
+cursor: pointer;
+border: 0;
+border-radius: .125rem;
+-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+-webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+padding: .84rem 2.14rem;
+font-size: .81rem;
+}
+
+.btn.peach-gradient:hover {
+background: -webkit-gradient(linear,left top,left bottom,from(#B993D6 0%),to( #8CA6DB 51%));
+background: linear-gradient(#B993D6 0%,#8CA6DB 51%);
+}
+
+.btn:active, .btn:focus, .btn:hover {
+outline: 0;
+-webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+}
+.btn:hover {
+color: #212529;
+text-decoration: none;
 }
 
 /* Media Queries */
@@ -205,3 +383,56 @@ li a {
   text-align: right;
 }
 }
+
+@media only screen and (max-width:320px){
+.typewrite {
+  font-size: 10px;
+}
+}
+
+@media only screen and (max-width:360px){
+.typewrite {
+  font-size: 10px;
+}
+}
+@media only screen and (max-width:375px){
+.typewrite {
+  font-size: 15px;
+}
+}
+
+@media only screen and (max-width:411px){
+.typewrite {
+  font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 414px){
+    
+    .abouttext {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+    .typewrite {
+     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+p{
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+.typewrite {
+  font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+    .typewrite {
+  font-size: 25px;
+ }
+}
+
