@@ -1,9 +1,9 @@
-/* https://codepen.io/danielgroen/pen/VeRPOq */ 
+/* https://codepen.io/danielgroen/pen/VeRPOq */
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Hello I am Deanna Castano.", "I am Creative.", " Webdevelopment.", "Graphic Designer"];
-  
+  var dataText = [ "I'am a UI/UX Designer", "Front/Back Web Developer.", "& Graphic Designer."];
+
   // type one text in the typwriter
   // keeps calling itself until the text is finished
   function typeWriter(text, i, fnCallback) {
