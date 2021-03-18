@@ -54,7 +54,7 @@ margin-right: 8px;
     color: #A678EC !important;
 }
 
-.navbar .nav-link:active{
+.navbar .nav-link:current{
     color: #f7f239 !important;
 }
 
@@ -62,8 +62,8 @@ margin-right: 8px;
 
 #navicons{
     position: relative;
-    margin-right: 55px;
-    margin-top: 48px;
+    margin-right: 65px;
+    margin-top: 80px;
 }
 
 .fab {
@@ -82,10 +82,10 @@ margin-right: 8px;
 }
 
 /* Top left text */
-.top-left {
-  position: absolute;
-  top: 120px;
-  left: 70px;
+div.top-left {
+  position: relative;
+  top: 74px;
+  left: 25px;
 }
 
 /* css scroll icon */
@@ -193,8 +193,8 @@ button {
 
 /* about */
 
-#emptyspace{
-      height: 20px;
+#emptyspace_about{
+      height: 57px;
 }
 .aboutheading{
     margin-top: 50px;
@@ -210,6 +210,9 @@ button {
     margin-right: auto;
     margin-left:  auto;
     margin-bottom: 40px;
+}
+.social_media{
+    margin-top: 11px;
 }
 ul#icons li {
    display:inline-block;
@@ -235,6 +238,10 @@ ol{
 }
 
 /* Skill icons and heading*/
+
+#emptyspace_skills{
+      height: 57px;
+}
 
 .skillsheading{
     margin-bottom: 30px;
@@ -423,8 +430,135 @@ transition: background-color .3s, opacity .3s, visibility .5s;
 }
 /* Media Queries */
 
+@media only screen and (max-width: 414px){
 
-@media (min-width: 768px)
-.top-left {
-    min-height: 100vh;
+    button.navbar-toggler{  
+    margin-right: 24px;
+    }
+
+    .abouttext {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+    .typewrite {
+     font-size: 20px;
+  }
+  #navicons {
+    position: relative;
+    margin-right: 107px;
+    margin-top: 48px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+    button.navbar-toggler{  
+    margin-right: 52px;
+    }
+
+p{
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+.typewrite {
+  font-size: 16px;
+  margin-top: 0;
+  }
+
+  #navicons {
+    position: relative;
+    margin-right: 44px;
+    margin-top: 48px;
+}
+
+li a {
+  text-align: right;
+}
+}
+
+@media only screen and (max-width:320px){
+.typewrite {
+  font-size: 10px;
+}
+}
+
+@media only screen and (max-width:360px){
+.typewrite {
+  font-size: 10px;
+}
+}
+@media only screen and (max-width:375px){
+.typewrite {
+  font-size: 13px;
+}
+#navicons {
+    position: relative;
+    margin-right: 81px;
+    margin-top: 48px;
+}
+}
+
+@media only screen and (max-width:411px){
+.typewrite {
+  font-size: 10px;
+}
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    ul.navbar-nav.text-right{
+    margin-right: 52px;
+}
+    .typewrite {
+  font-size: 25px;
+ }
+ #navicons {
+    position: relative;
+    margin-right: 44px;
+    margin-top: 48px;
+}
+}
+@media only screen and (max-width: 540px){
+
+    button.navbar-toggler{  
+    margin-right: 30px;
+    }
+
+
+    .typewrite {
+  font-size: 18px;
+ }
+ #navicons {
+    position: relative;
+    margin-right: 46px;
+    margin-top: 48px;
+}
+#navicons {
+    position: relative;
+    margin-right: 7px;
+    margin-top: 48px;
+}
+}
+
+@media only screen and (max-width: 280px){
+
+    button.navbar-toggler{  
+    margin-right: 49px;
+    }
+
+    .typewrite {
+  font-size: 14px;
+ }
+ #navicons {
+    position: relative;
+    margin-right: 46px;
+    margin-top: 48px;
+}
+#navicons {
+    position: relative;
+    margin-right: 34px;
+    margin-top: 48px;
+}
 }
