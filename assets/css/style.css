@@ -84,8 +84,9 @@ margin-right: 8px;
 /* Top left text */
 div.top-left {
   position: relative;
-  top: 74px;
+  top: 77px;
   left: 25px;
+  width: fit-content;
 }
 
 /* css scroll icon */
@@ -99,14 +100,14 @@ div.top-left {
 .icon-scroll::before {
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 85%;
     transform: translateX(-50%);
 }
 
 .icon-scroll {
     width: 40px;
     height: 70px;
-    border: 2px solid #fff;
+    border: 2px solid #6160b8;
     border-radius: 25px;
     cursor: pointer;
     bottom: 2rem;
@@ -116,7 +117,7 @@ div.top-left {
     content: '';
     width: 8px;
     height: 8px;
-    background: #fff;
+    background:#6160b8;
     margin-left: -4px;
     top: 15px;
     border-radius: 50%;
@@ -432,17 +433,19 @@ transition: background-color .3s, opacity .3s, visibility .5s;
 
 @media only screen and (max-width: 414px){
 
-    button.navbar-toggler{  
-    margin-right: 24px;
+    .downscroll{
+        display: none;
     }
 
     .abouttext {
     padding-left: 15px;
     padding-right: 10px;
 }
+
     .typewrite {
      font-size: 20px;
   }
+
   #navicons {
     position: relative;
     margin-right: 107px;
@@ -451,10 +454,6 @@ transition: background-color .3s, opacity .3s, visibility .5s;
 }
 
 @media only screen and (max-width: 768px) {
-
-    button.navbar-toggler{  
-    margin-right: 52px;
-    }
 
 p{
     margin-left: 20px;
@@ -475,34 +474,55 @@ p{
 li a {
   text-align: right;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:320px){
 .typewrite {
   font-size: 10px;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:360px){
 .typewrite {
   font-size: 10px;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 @media only screen and (max-width:375px){
 .typewrite {
   font-size: 13px;
 }
+
 #navicons {
     position: relative;
     margin-right: 81px;
     margin-top: 48px;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:411px){
 .typewrite {
   font-size: 10px;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 
 
@@ -511,54 +531,68 @@ li a {
     ul.navbar-nav.text-right{
     margin-right: 52px;
 }
+
     .typewrite {
   font-size: 25px;
  }
+
  #navicons {
     position: relative;
     margin-right: 44px;
     margin-top: 48px;
 }
+
+.downscroll{
+        display: none;
+    }
 }
 @media only screen and (max-width: 540px){
-
-    button.navbar-toggler{  
-    margin-right: 30px;
-    }
-
 
     .typewrite {
   font-size: 18px;
  }
- #navicons {
-    position: relative;
-    margin-right: 46px;
-    margin-top: 48px;
-}
+ 
 #navicons {
     position: relative;
     margin-right: 7px;
     margin-top: 48px;
 }
+
+#back-to-top{
+    bottom: 45px;
+    left: 441px;
+}
+.downscroll{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 280px){
 
-    button.navbar-toggler{  
-    margin-right: 49px;
-    }
+    .navbar-brand {
+    width: 58px;
+}
 
     .typewrite {
   font-size: 14px;
  }
- #navicons {
-    position: relative;
-    margin-right: 46px;
-    margin-top: 48px;
-}
+
 #navicons {
     position: relative;
     margin-right: 34px;
     margin-top: 48px;
+}
+.btn{
+    width: 219px;
+}
+.downscroll{
+        display: none;
+    }
+#me{
+    width: 248px;
+}
+
+.btn.btn-elegant {
+    width: auto;
 }
 }

@@ -1,7 +1,2 @@
 # Code Institute
-
-Welcome Deanna Castano,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+explains what the project does and the value that it provides to its users
