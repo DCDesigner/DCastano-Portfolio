@@ -1,4 +1,4 @@
-/* https://codepen.io/danielgroen/pen/VeRPOq */
+/* -- CSS typewriter Daniel groen https://codepen.io/danielgroen/pen/VeRPOq --*/
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter

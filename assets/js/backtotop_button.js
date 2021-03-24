@@ -1,3 +1,5 @@
+/*--"scroll down animation" Bootstrap 4.1.1 Snippet by hasan143--
+https://bootsnipp.com/snippets/0e6dy*/
 
 /*-- Back to top btn --*/
 

@@ -1,4 +1,4 @@
-/* https://bootsnipp.com/snippets/yyQq1  */
+/* -- "Portfolio Gallery with Filter" Bootstrap 4.1.1 Snippet by agustinguanipa https://bootsnipp.com/snippets/yyQq1 --*/
 
 let modalId = $('#image-gallery');
 

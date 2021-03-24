@@ -12,7 +12,7 @@ div.row{
     padding-bottom: 62px;
 }
 
-
+/* fonts */
 h1{
    font-family: 'Raleway';
    font-weight: bold;
@@ -180,18 +180,6 @@ p.miniquote {
 
 }
 
-/* Button */
-button {
-	font-family: Helvetica, sans-serif;
-	font-weight: 100;
-	color: #fff;
-}
-
-
-.fas{
-    padding-left: 5px;
-}
-
 /* about */
 
 #emptyspace_about{
@@ -322,11 +310,7 @@ margin-top: 50px;
     font-weight: bold;
     background: linear-gradient(300deg,#B993D6 0%,#8CA6DB 51%)!important
 }
-/*
-.btn.purple-gradient:hover {
-background: -webkit-gradient(linear,left top,left bottom,from(#B993D6 0%),to( #8CA6DB 51%));
-background: linear-gradient(#B993D6 0%,#8CA6DB 51%);
-}*/
+
 .purple-gradient {
 background: linear-gradient(40deg,#B993D6 0%,#8CA6DB 51%)!important;
 }
