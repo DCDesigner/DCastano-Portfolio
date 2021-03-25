@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+/* fallback font for h1 Raleway*/ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* fallback font for h2 Monstserrat*/ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@500&display=swap');
 
 /* Show it is fixed to the top */
 body .container-fluid {
@@ -14,19 +17,19 @@ div.row{
 
 /* fonts */
 h1{
-   font-family: 'Raleway';
+   font-family: 'Raleway','Roboto', sans-serif;
    font-weight: bold;
    font-size: 20px;
    color: #733aaf;
 }
 
 h2.font-weight-bold{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Nunito Sans', sans-serif;
   font-size: 18px;
 }
 
 p {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Nunito Sans', sans-serif;
   font-size: 13px;
 }
 /* logo */
@@ -37,7 +40,7 @@ width: 100px;
 
 /* navbar */
 ul.navbar-nav{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway','Roboto', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -145,7 +148,7 @@ div.top-left {
   color: black;
   text-transform: uppercase;
   background-color: none;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Nunito Sans', sans-serif;
   font-weight: 800;
 }
 
@@ -353,7 +356,7 @@ box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 
 /* contact */
 #contactheading{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Nunito Sans', sans-serif;
     color: white;
     font-size: 50px;
     font-weight: bold;
@@ -379,7 +382,7 @@ background: linear-gradient(19deg,#7131a2 0%,#7477be 51%,#f9d9f1)!important;
 
 /* Buttontotop */
 .btn.btn-elegant{
-font-family: Montserrat;
+font-family: 'Montserrat','Nunito Sans', sans-serif;
 color: #fff;
   background: linear-gradient(300deg,#B993D6 0%,#8CA6DB 51%)!important
 }
@@ -409,7 +412,7 @@ transition: background-color .3s, opacity .3s, visibility .5s;
 #copyright{
   text-align: center;
   margin: 5px;
-  font-family: 'Raleway';
+  font-family: 'Raleway','Roboto', sans-serif;
   font-size: 13px;
   color: #7134a3;
 }
@@ -572,6 +575,7 @@ display: none;
 
     .typewrite {
   font-size: 14px;
+  font-family: 'Raleway';
  }
 
 #navicons {
