@@ -18,19 +18,19 @@ div.row{
 /* fonts */
 h1{
    font-family: 'Raleway','Roboto', sans-serif;
-   font-weight: bold;
-   font-size: 20px;
+   font-weight: bold !important;
    color: #733aaf;
+   font-size: 4.5rem !important;
 }
 
 h2.font-weight-bold{
   font-family: 'Montserrat','Nunito Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px !important;
 }
 
 p {
-  font-family: 'Montserrat','Nunito Sans', sans-serif;;
-  font-size: 13px;
+  font-family: 'Montserrat','Nunito Sans', sans-serif;
+  font-size: 13px !important;
 }
 /* logo */
 .navbar-brand{
@@ -41,8 +41,8 @@ width: 100px;
 /* navbar */
 ul.navbar-nav{
   font-family: 'Raleway','Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
 .navbar-nav{
 margin-right: 8px;
@@ -149,7 +149,7 @@ div.top-left {
   text-transform: uppercase;
   background-color: none;
   font-family: 'Montserrat','Nunito Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 span {
@@ -178,7 +178,7 @@ background-color:#e6e6ff;
 }
 
 p.miniquote {
-	font-size: 16px;
+	font-size: 20px !important;
 	text-align: center;
 }
 
@@ -217,7 +217,7 @@ ul#icons li {
 }
 
 .iconlist{
-    margin-bottom: 7px;
+    margin-bottom: 13px;
     margin-top: 43px;
 }
 
@@ -274,6 +274,10 @@ color:#fb86db;
 
 .fa-laptop {
 color: #ef29b9;
+}
+
+.fa-2x {
+    font-size: 4em;
 }
 
 p.grey-text {
@@ -416,7 +420,7 @@ transition: background-color .3s, opacity .3s, visibility .5s;
 #copyright{
   text-align: center;
   margin: 5px;
-  font-family: 'Raleway','Roboto', sans-serif;
+  font-family: 'Raleway','Roboto', sans-serif !important;
   font-size: 13px;
   color: #7134a3;
 }
@@ -517,6 +521,10 @@ display: none;
 .downscroll{
         display: none;
     }
+
+    #contactheading {
+    font-size: 48px;
+}
 }
 
 @media only screen and (max-width:411px){
@@ -593,11 +601,22 @@ display: none;
 .downscroll{
         display: none;
     }
+
+p.miniquote {
+    font-size: 16px !important;
+}
+
 #me{
     width: 248px;
 }
 
 .btn.btn-elegant {
     width: auto;
+}
+h1 {
+    font-size: 2.5rem !important;
+}
+#contactheading {
+    font-size: 31px !important;
 }
 }
