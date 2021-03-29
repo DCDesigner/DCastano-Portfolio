@@ -522,15 +522,11 @@ display: none;
 }
 
 .downscroll{
-        display: none;
+    display: none;
     }
 
-    #contactheading {
-    font-size: 48px;
-}
-#back-to-top{
-    bottom: 45px;
-    left: 278px;
+#contactheading {
+    font-size: 48px !important;
 }
 }
 
@@ -542,10 +538,6 @@ display: none;
 .downscroll{
         display: none;
     }
-    #back-to-top{
-    bottom: 45px;
-    left: 318px;
-}
 }
 
 
@@ -581,10 +573,6 @@ display: none;
     margin-top: 48px;
 }
 
-#back-to-top{
-    bottom: 45px;
-    left: 444px;
-}
 .downscroll{
         display: none;
     }
@@ -606,9 +594,7 @@ display: none;
     margin-right: 34px;
     margin-top: 48px;
 }
-.btn{
-    width: 219px;
-}
+
 .downscroll{
         display: none;
     }
@@ -624,10 +610,15 @@ p.miniquote {
 .btn.btn-elegant {
     width: auto;
 }
-h1 {
-    font-size: 2.5rem !important;
+
+.btn{
+    font-size: 13px !important;
 }
+
 #contactheading {
     font-size: 31px !important;
+}
+#back-to-top {
+right: 69px;
 }
 }
