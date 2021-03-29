@@ -145,7 +145,7 @@ div.top-left {
     }
 }
 
-/* animated text */
+/* animated text CSS typewriter Daniel groen https://codepen.io/danielgroen/pen/VeRPOq*/
 .typewrite {
   font-size: 30px;
   color: black;
@@ -305,7 +305,7 @@ text-align: center;
 margin-bottom: 40px;
 margin-top: 50px;
 }
-
+/* button webkit unknown source */
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
   box-shadow: none !important;
@@ -355,6 +355,7 @@ outline: 0;
 -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 }
+/* Gallery "Portfolio Gallery with Filter" Bootstrap 4.1.1 Snippet by agustinguanipa https://bootsnipp.com/snippets/yyQq1 */
 
 #image-gallery .modal-footer{
   display: block;
@@ -391,7 +392,8 @@ background: linear-gradient(19deg,#7131a2 0%,#7477be 51%,#f9d9f1)!important;
   background: linear-gradient(80deg,#B993D6 0%,#8CA6DB 51%)!important
 }
 
-/* Buttontotop */
+/* Buttontotop Bootstrap 4.1.1 Snippet by hasan143--
+https://bootsnipp.com/snippets/0e6dy */
 .btn.btn-elegant{
 font-family: 'Montserrat','Nunito Sans', sans-serif;
 color: #fff;
