@@ -28,6 +28,9 @@ h2.font-weight-bold{
   font-size: 20px !important;
 }
 
+h3{
+    font-size: 30px !important;
+}
 p {
   font-family: 'Montserrat','Nunito Sans', sans-serif;
   font-size: 13px !important;
@@ -367,7 +370,7 @@ box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
     font-family: 'Raleway','Roboto', sans-serif;
     font-weight: bold !important;
     color: #ffffff;
-    font-size: 70px !important;
+    font-size: 57px !important;
     margin-top: 84px;
 }
 
@@ -525,6 +528,10 @@ display: none;
     #contactheading {
     font-size: 48px;
 }
+#back-to-top{
+    bottom: 45px;
+    left: 278px;
+}
 }
 
 @media only screen and (max-width:411px){
@@ -535,6 +542,10 @@ display: none;
 .downscroll{
         display: none;
     }
+    #back-to-top{
+    bottom: 45px;
+    left: 318px;
+}
 }
 
 
@@ -572,7 +583,7 @@ display: none;
 
 #back-to-top{
     bottom: 45px;
-    left: 441px;
+    left: 444px;
 }
 .downscroll{
         display: none;
