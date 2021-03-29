@@ -364,11 +364,11 @@ box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 
 /* contact */
 #contactheading{
-  font-family: 'Montserrat','Nunito Sans', sans-serif;
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 50px;
+    font-family: 'Raleway','Roboto', sans-serif;
+    font-weight: bold !important;
+    color: #ffffff;
+    font-size: 70px !important;
+    margin-top: 84px;
 }
 
 .rowcontact{
