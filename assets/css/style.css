@@ -20,7 +20,7 @@ h1{
    font-family: 'Raleway','Roboto', sans-serif;
    font-weight: bold !important;
    color: #733aaf;
-   font-size: 4.5rem !important;
+   font-size: 3.6rem !important;
 }
 
 h2.font-weight-bold{
@@ -236,6 +236,10 @@ ol{
     margin-bottom: 5px;
 }
 
+#calltoaction{
+    text-align: center;
+}
+
 /* Skill icons and heading*/
 
 #emptyspace_skills{
@@ -428,199 +432,4 @@ transition: background-color .3s, opacity .3s, visibility .5s;
   font-family: 'Raleway','Roboto', sans-serif !important;
   font-size: 13px;
   color: #7134a3;
-}
-/* Media Queries */
-
-@media only screen and (max-width: 414px){
-
-    .downscroll{
-        display: none;
-    }
-
-    .abouttext {
-    padding-left: 15px;
-    padding-right: 10px;
-}
-
-    .typewrite {
-     font-size: 20px;
-  }
-
-  #navicons {
-    position: relative;
-    margin-right: 107px;
-    margin-top: 48px;
-}
-}
-
-@media only screen and (max-width: 768px) {
-
-p{
-    margin-left: 20px;
-    margin-right: 18px;
-}
-
-.typewrite {
-  font-size: 16px;
-  margin-top: 0;
-  }
-
-  #navicons {
-    position: relative;
-    margin-right: 44px;
-    margin-top: 48px;
-}
-
-li a {
-  text-align: right;
-}
-
-.downscroll{
-        display: none;
-    }
-
-    ul.list-group {
-    margin-bottom: 0px;
-}
-
-div.row {
- padding-bottom: 0px;
-}
-
-#emptyspace_about {
-display: none;
-}
-
-}
-
-@media only screen and (max-width:320px){
-.typewrite {
-  font-size: 10px;
-}
-
-.downscroll{
-        display: none;
-    }
-}
-
-@media only screen and (max-width:360px){
-.typewrite {
-  font-size: 10px;
-}
-
-.downscroll{
-        display: none;
-    }
-}
-@media only screen and (max-width:375px){
-.typewrite {
-  font-size: 13px;
-}
-
-#navicons {
-    position: relative;
-    margin-right: 81px;
-    margin-top: 48px;
-}
-
-.downscroll{
-    display: none;
-    }
-
-#contactheading {
-    font-size: 48px !important;
-}
-}
-
-@media only screen and (max-width:411px){
-.typewrite {
-  font-size: 10px;
-}
-
-.downscroll{
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width: 1024px){
-
-    ul.navbar-nav.text-right{
-    margin-right: 52px;
-}
-
-    .typewrite {
-  font-size: 25px;
- }
-
- #navicons {
-    position: relative;
-    margin-right: 44px;
-    margin-top: 48px;
-}
-
-.downscroll{
-        display: none;
-    }
-}
-@media only screen and (max-width: 540px){
-
-    .typewrite {
-  font-size: 18px;
- }
- 
-#navicons {
-    position: relative;
-    margin-right: 7px;
-    margin-top: 48px;
-}
-
-.downscroll{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 280px){
-
-    .navbar-brand {
-    width: 58px;
-}
-
-    .typewrite {
-  font-size: 14px;
-  font-family: 'Raleway';
- }
-
-#navicons {
-    position: relative;
-    margin-right: 34px;
-    margin-top: 48px;
-}
-
-.downscroll{
-        display: none;
-    }
-
-p.miniquote {
-    font-size: 16px !important;
-}
-
-#me{
-    width: 248px;
-}
-
-.btn.btn-elegant {
-    width: auto;
-}
-
-.btn{
-    font-size: 13px !important;
-}
-
-#contactheading {
-    font-size: 31px !important;
-}
-#back-to-top {
-right: 69px;
-}
 }
