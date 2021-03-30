@@ -150,10 +150,7 @@ display: none;
 }
 
 @media only screen and (max-width: 280px){
-
-    button.navbar-toggler{
-    margin-right: 48px;
-    }
+gi
     .navbar-brand {
     width: 58px;
 }
@@ -200,6 +197,6 @@ p.miniquote {
     font-size: 31px !important;
 }
 #back-to-top {
-right: 73px;
+right: 18px;
 }
 }
