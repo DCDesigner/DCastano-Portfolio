@@ -115,13 +115,18 @@ Balsamiq was used to create the wireframes during the design process.
 # Testing<h1>
 The **W3C Markup Validator** and **W3C CSS Validator Services** were used to validate every page of the project to ensure there were no syntax errors in the project. Html formatter was used to beautify the code with correct indentations, to make it readable and easy to find the section of code. Lighthouse is a tool is Dev tools used to test the speed of the website. Page speed insight from Google helped me understand the performance of my website on a desktop and mobile. Both had different speeds. The mobile had a speed of 73 and desktop 47 * images below. 
 
-*	W3C Markup Validator  
-*	W3C CSS Validator
-*	Html Formatter
-*	Lighthouse
-*	Page speed insight 
+1.	W3C Markup Validator  
+2.	W3C CSS Validator
+3.	Html Formatter
+4.	Lighthouse
+5.	Page speed insight 
  
- 
+ * [View Markup Validator here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/W3CValidator.png) 
+ * [View CSS Validator here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/W3CCSSValidator.png)
+ * [View Lighthouse test here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/lighthouse_test.png)
+ * [View Page Speed Insights Mobile here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/PageSpeed_Insights_mobile.png)
+ * [View Page Speed Insights Desktop here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/PageSpeed_Insights_desktop.png)
+
 # Testing User Stories from User Experience (UX) Section<h1>
 
 ## First Time Visitor Goals<h2>
@@ -157,11 +162,19 @@ The **W3C Markup Validator** and **W3C CSS Validator Services** were used to val
 
 ## **Further Testing**<h2>
 
-*	The Website was tested on Google Chrome, Microsoft Edge, Firefox and Safari browsers.
+1.	The Website was tested on Google Chrome, Microsoft Edge, Firefox and Safari browsers.
 
-*	The website was also tested on www.parrotqa.com. I did see on difference so decided to download the actual browsers. I noticed that testing websites are not completely accurate.
+2.	The website was also tested on www.parrotqa.com. I did see on difference so decided to download the actual browsers. I noticed that testing websites are not completely accurate.
 
-*	The website was viewed on a variety of devices such as Laptop, iPhone7plus and iPad.
+3.	The website was viewed on a variety of devices such as Laptop, iPhone7plus and iPad.
+
+
+* [View Safari test here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/ParrotQA_safari_test.png)
+
+* [View Firefox test here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/ParrotQA_firefox_test.png)
+
+* [View Chrome test here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/ParrotQA_chrome_test.png)
+
 
 **Known Bugs**
 
@@ -171,6 +184,7 @@ The **W3C Markup Validator** and **W3C CSS Validator Services** were used to val
 4.	The images in my portfolio section sometimes load slow on desktop. I checked on other devices and it fine. I did size them down to less than 2,500px. I researched in several websites they all say different sizes. Link to size reference I also tested the speed of my website with Page speed insight from Google. I can see the images halfway loaded if I scroll immediately superfast to the portfolio section. But since I know visitors will take a bit of time to get to that section its fine. Its only the photography section images that take a bit more to load.
 5.	For media query screen size galaxy fold 280px, the word portfolio is sticking out a bit causing the website to have a horizontal scroll. This is a known issue because I want the font size og h1 to big as big as possible on all devices. I can into an issue because the only screen size that was not looking good was the galaxy. So the h1 tag I wanted to put a media query with a smaller font size but, it did not work. The h1 tag as the !important so that the main font loads and not the fallback fonts. This causes issues when wanting to put !important on the new font size for the media query, because it will override. As the tutor mentioned I have to several !important which its suggested not to use, because this like this will happen. So I had to choose a font size that would be at least visible to all screen sizes even though the galaxy fold has a horizontal scroll. I am aware and ok with that.
 6.	I am aware of the problems displayed in Gitpod regarding property python and launch.json.
+[View Gitpod Errors here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/gitpod_errors.png)
 
 # Deployment<h1>
 ## GitHub Pages<h2>
