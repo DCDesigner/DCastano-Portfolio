@@ -69,7 +69,7 @@ Home – About – Skills - Portfolio – Contact
 My initial wireframe has a different style for the skills section. My final decision was to make it more straight forward and tighten up space using words rather than using imagery of apps and percentage icons which, would make not make a visual clean section with a lot of colors and sizes of images representing each word and a very long page.
 Preview wireframes here<h3>
 
-### [View Wireframes here.](assets/images/readme_files/wireframes.pdf)<h3>
+### [View Wireframes here.](https://github.com/DCDesigner/DCastano-Portfolio/blob/master/assets/images/readme_files/wireframes.pdf)<h3>
 
 ## **Features**<h2>
 
@@ -223,4 +223,7 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 Acknowledgements
 *	My Mentor for continuous helpful feedback and the tutors helped me along the way guiding me on how to do something or fix an issue.
 
+**Final Thoughts**
+
+In the future I will create my own gallery and learn to code the things that I used on my website from other developers from scratch.
 
