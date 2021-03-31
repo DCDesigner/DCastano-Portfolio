@@ -1,8 +1,10 @@
 # **Deanna Castano’s Portfolio Website**<h1>
 ### [View the live website here.]( https://dcdesigner.github.io/DCastano-Portfolio/)<h3>
 
-### This is the mockup image of Deanna Castano’s portfolio website. It is designed to be responsive and accessible on a range of devices and compatible with several browsers. The design has a minimalist approach and easy to navigate for future employers, top companies, small business clients anyone that is looking to hiring a UI/UX Designer, Graphic Designer or a Front-End Developer. She is also currently doing a bootcamp as a Full Stack Software Developer. 
-<h3>
+This is the mockup image of Deanna Castano’s portfolio website. 
+
+It is designed to be responsive and accessible on a range of devices and compatible with several browsers. The design has a minimalist approach and easy to navigate for future employers, top companies, small business clients anyone that is looking to hiring a UI/UX Designer, Graphic Designer or a Front-End Developer. She is also currently doing a bootcamp as a Full Stack Software Developer. 
+
 
 ![mockups](assets/images/readme_files/responsive_mockups.png)
 
@@ -10,21 +12,23 @@
 
 ## **User stories**<h2>
 
-## First Time Visitor Goals<h2>
+**First Time Visitor Goals**
 
 ### a.	As a first time visitor, I want to easily visualize the persons skills and professional/educational background.<h3>
 
 ### b.	As a first time visitor, I want to be able to easily navigate throughout the site to find sample work, resume and social media.<h3>
 
-## Returning Visitor Goals<h2>
+**Returning Visitor Goals**
+
 a.	As a Returning Visitor, users can relook at resume, social media accounts or use the contact form to get in touch with me if interested in my services for a project.<h3>
 
-## Frequent User Goals<h2>
+**Frequent User Goals**
+
 a.	As a Frequent User, I want to see new project samples.
 
 b.	As a Frequent User, I want to see if new features have been added.
 
-## **Design** <h2>
+## **Design**<h2>
 
 **Color Scheme**
 
@@ -33,7 +37,10 @@ a.	The main colors are different tones of purple, pink, blues and touches of yel
 b.	The nav and social media use a light purple, so once hovered on a brighter color appears. Purple for nav and yellow for social media. The purpose of this was to distinguish and let users know what they are clicking on.
 
 c.	Color is used all around the site in headers buttons and main image.
-    
+
+![colors](assets/images/readme_files/colors1.png)
+![mockups](assets/images/readme_files/colors2.png)
+
 **Typography**
 
  a.	My h1 font is Raleway used for big headings. It is a San Serif font to give the website a modern look. The fallback font if Raleway does not work is Roboto, San Serif. My h2 is Montserrat also San Serif used for my p tag text and is used for small text. The fallback for Montserrat is Nunito Sans, San Serif Both fonts are free from Google Fonts.<h3>
@@ -62,6 +69,8 @@ Home – About – Skills - Portfolio – Contact
 My initial wireframe has a different style for the skills section. My final decision was to make it more straight forward and tighten up space using words rather than using imagery of apps and percentage icons which, would make not make a visual clean section with a lot of colors and sizes of images representing each word and a very long page.
 Preview wireframes here<h3>
 
+### [View Wireframes here.](assets/images/readme_files/wireframes.pdf)<h3>
+
 ## **Features**<h2>
 
 Responsive on all device sizes
@@ -76,9 +85,9 @@ A button to scroll to the top of the page at the button of the site
 
 ## **Languages Used**<h2>
 
-1. *HTML5*
-2. *CSS3*
-3. *JS*
+1. HTML5
+2. CSS3
+3. JS
 
 ## **Frameworks, Libraries & Programs Used**<h2>
 1.	**Bootstrap 4.4.1:** Bootstrap was used to create a responsive website.
@@ -156,15 +165,15 @@ The **W3C Markup Validator** and **W3C CSS Validator Services** were used to val
 
 **Known Bugs**
 
-•	There are known bugs on both the html and css due to the snippets I used from Agustin Guanipa gallery snippet. The image src are being added dynamically from line 53 of my gallery.js file.
-•	There are 1196 errors and 1302 warnings that I am aware about in the CSS validator. Some come from https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
-•	The other errors or warnings are from the snippets that I used from other coders that I credited.
-•	The images in my portfolio section sometimes load slow on desktop. I checked on other devices and it fine. I did size them down to less than 2,500px. I researched in several websites they all say different sizes. Link to size reference I also tested the speed of my website with Page speed insight from Google. I can see the images halfway loaded if I scroll immediately superfast to the portfolio section. But since I know visitors will take a bit of time to get to that section its fine. Its only the photography section images that take a bit more to load.
-•	For media query screen size galaxy fold 280px, the word portfolio is sticking out a bit causing the website to have a horizontal scroll. This is a known issue because I want the font size og h1 to big as big as possible on all devices. I can into an issue because the only screen size that was not looking good was the galaxy. So the h1 tag I wanted to put a media query with a smaller font size but, it did not work. The h1 tag as the !important so that the main font loads and not the fallback fonts. This causes issues when wanting to put !important on the new font size for the media query, because it will override. As the tutor mentioned I have to several !important which its suggested not to use, because this like this will happen. So I had to choose a font size that would be at least visible to all screen sizes even though the galaxy fold has a horizontal scroll. I am aware and ok with that.
-•	I am aware of the problems displayed in Gitpod regarding property python and launch.json.
+1. There are known bugs on both the html and css due to the snippets I used from Agustin Guanipa gallery snippet. The image src are being added dynamically from line 53 of my gallery.js file.
+2.	There are 1196 errors and 1302 warnings that I am aware about in the CSS validator. Some come from https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+3.	The other errors or warnings are from the snippets that I used from other coders that I credited.
+4.	The images in my portfolio section sometimes load slow on desktop. I checked on other devices and it fine. I did size them down to less than 2,500px. I researched in several websites they all say different sizes. Link to size reference I also tested the speed of my website with Page speed insight from Google. I can see the images halfway loaded if I scroll immediately superfast to the portfolio section. But since I know visitors will take a bit of time to get to that section its fine. Its only the photography section images that take a bit more to load.
+5.	For media query screen size galaxy fold 280px, the word portfolio is sticking out a bit causing the website to have a horizontal scroll. This is a known issue because I want the font size og h1 to big as big as possible on all devices. I can into an issue because the only screen size that was not looking good was the galaxy. So the h1 tag I wanted to put a media query with a smaller font size but, it did not work. The h1 tag as the !important so that the main font loads and not the fallback fonts. This causes issues when wanting to put !important on the new font size for the media query, because it will override. As the tutor mentioned I have to several !important which its suggested not to use, because this like this will happen. So I had to choose a font size that would be at least visible to all screen sizes even though the galaxy fold has a horizontal scroll. I am aware and ok with that.
+6.	I am aware of the problems displayed in Gitpod regarding property python and launch.json.
 
-Deployment
-GitHub Pages
+# Deployment<h1>
+## GitHub Pages<h2>
 The project was deployed to GitHub Pages using the following steps...
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
@@ -194,22 +203,24 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-Credits
-Code
-•	The scroll symbol was created my Hasan.
-•	Back to top button uses JavaScript so that its faster to go up to the top again. I noticed the link no longer works to give credit to Hasan.
-•	The portfolio gallery uses JavaScript for an easy transition when finding sample work organized into different categories. Link to Agustin Guanipa gallery snippet.
 
-•	The typewriter at the top of my page was created by Daniel Groen. 
-•	Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-•	The gradient web kit unknown source website not found
-Content
-•	All content was written by the developer.
-•	To find inspiration on colors I used Coolors.
-•	The meaning of colors and why help me decide.
-Media
-•	All Images were created by the developer and used fontawesome for icons.
+# Credits<h1>
+## Code<h2>
+*	The scroll symbol was created my Hasan.
+*	Back to top button uses JavaScript so that its faster to go up to the top again. I noticed the link no longer works to give credit to Hasan.
+*	The portfolio gallery uses JavaScript for an easy transition when finding sample work organized into different categories. Link to Agustin Guanipa gallery snippet.
+*	The typewriter at the top of my page was created by Daniel Groen. 
+*	Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+*	The gradient web kit unknown source website not found
+
+## Content<h2>
+*	All content was written by the developer.
+*	To find inspiration on colors I used Coolors.
+*	The meaning of colors and why help me decide.
+
+## Media<h2>
+*	All Images were created by the developer and used fontawesome for icons.
 Acknowledgements
-•	My Mentor for continuous helpful feedback and the tutors helped me along the way guiding me on how to do something or fix an issue.
+*	My Mentor for continuous helpful feedback and the tutors helped me along the way guiding me on how to do something or fix an issue.
 
 
